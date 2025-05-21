@@ -53,7 +53,7 @@
             <h2>Miles de jóvenes disfrutan del Salón del Cómic de València</h2>
             <p>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única 
             en el Salón del Cómic de Valencia. Desde primera hora de la mañana de hoy viernes, han podido disfrutar 
-            de toda la oferta cultural que el Salón ha organizado para ellos.</p>
+            de toda la oferta cultural que han organizado para ellos.</p>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#213b20" color="white" border-radius="20px" href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/">
           Leer mas >>
@@ -77,20 +77,85 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image width="137px" height="185px" padding="0"    src="https://mjml.io/assets/img/easy-and-quick.png" />
+          <mj-image width="250px" height="200px" padding="0" src="Noticia-3.jpg" />
           <mj-text align="center">
-            <h2>Easy and quick</h2>
-            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+            <h2>Todo preparado para el gran festival de la cultura POP en el Salón del Cómic de Valéncia </h2>
+            <p>La norteamericana Emil Ferris encabeza el listado de autores internacionales de esta edición. 
+            Exposiciones, firmas, charlas… todo desde mañana 28 de febrero al domingo 2 de marzo en Feria Valencia.</p>
           </mj-text>
+          <mj-button font-family="Helvetica" background-color="#213b20" color="white" border-radius="20px" href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/">
+          Leer mas >>
+         </mj-button>
         </mj-column>
         <mj-column>
-          <mj-image width="166px" height="185px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+          <mj-image width="250px" height="200px" padding="0" src="Noticia-4.jpg" />
           <mj-text align="center">
-            <h2>Responsive</h2>
-            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+            <h2>El ganador del Cosmasters 2025 del Salón del Cómic de València competirá en la final</h2>
+            <p>El talento del cosplay Kujalice ganador del concurso Cosmasters 2025, 
+            celebrado en el Salón del Cómic València, representará a España en la final internacional del Cosplay World Master de Lisboa.</p>
           </mj-text>
+          <mj-button font-family="Helvetica" background-color="#213b20" color="white" border-radius="20px" href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/">
+          Leer mas >>
+         </mj-button>
         </mj-column>
       </mj-group>
+    </mj-section>
+    <mj-section>
+    <mj-column>
+      <mj-text font-family="helvetica">
+      El <b>26 de Febrero</b> se abrirán la venta para las entradas generales del Salón del Cómic de Valencia.
+        <p>🎟️ No olvides que son <b>plazas limitadas</b> y que hay <b>promociones</b> para las entradas:</p>
+
+        <ul>
+          <li><b>Carnet Jove: </b> Descuento de 2 euros en la entrada general. </li><br></br>
+            <li><b>Domingo: </b>Descuento del 30% en la compra de entradas. </li><br></br>
+          <li><b>Packs Familiares: </b>Disponibles para viernes, sábado y domingo, con descuentos en entradas para adultos y niños entre 4 y 13 años. </li>
+        </ul>
+      </mj-text>
+      <mj-button font-family="Helvetica" background-color="#213b20" color="white" border-radius="40px" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista" width="600px" height="60px" padding="0">
+          <h2>¡CONSIGUE TU ENTRADA PARA EL EVENTO AQUI!</h2>
+         </mj-button>
+     </mj-column>
+    </mj-section>
+    <mj-section>
+    <mj-column>
+     <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
+     <mj-text font-family="Helvetica">
+        <b>¿Quieres enterarte de todas las novedades del evento?</b> Síguenos en nuestras redes para no perderte absolutamente nada.
+      </mj-text>
+      <mj-social font-size="25px" icon-size="40px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://mjml.io/" background-color="black" border-radius="40px">
+            
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://mjml.io/" background-color="black" border-radius="40px">
+            
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://mjml.io/" background-color="black" border-radius="40px">
+            
+          </mj-social-element>
+          <mj-social-element name="youtube" href="https://mjml.io/" background-color="black" border-radius="40px">
+            
+          </mj-social-element>
+        <mj-social-element name="tiktok" href="https://mjml.io/" background-color="black" border-radius="40px">
+            
+          </mj-social-element>
+        </mj-social>
+    </mj-column>
+    </mj-section>
+    <mj-section background-color="grey">
+    <mj-column>
+      <mj-text font-family="Helvetica" color="white" align="center">
+      <h2>Organiza</h2>
+      </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section  background-color="grey">
+    <mj-column>
+      <mj-image width="137px" height="185px" padding="0" src="LOGO-1" />
+      </mj-column>
+      <mj-column>
+      <mj-image width="137px" height="185px" padding="0" src="LOGO-2" />
+    </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
