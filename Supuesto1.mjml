@@ -142,19 +142,19 @@
         </mj-social>
     </mj-column>
     </mj-section>
-    <mj-section background-color="grey">
+    <mj-section>
     <mj-column>
-      <mj-text font-family="Helvetica" color="white" align="center">
-      <h2>Organiza</h2>
+      <mj-text font-family="Helvetica" color="black" align="center">
+      <h2>Organiza:</h2>
       </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section  background-color="grey">
+    <mj-section>
     <mj-column>
-      <mj-image width="137px" height="185px" padding="0" src="LOGO-1" />
+      <mj-image width="200px" height="100px" padding="0" src="LOGO-1.jpg" />
       </mj-column>
       <mj-column>
-      <mj-image width="137px" height="185px" padding="0" src="LOGO-2" />
+      <mj-image width="200px" height="100px" padding="0" src="LOGO-2.jpg" />
     </mj-column>
     </mj-section>
   </mj-body>
