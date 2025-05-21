@@ -1,0 +1,85 @@
+<mjml>
+<mj-head>
+    <mj-preview>Vuelve el Salón del Cómic Valencia </mj-preview>
+    <mj-title>Informacion Salón del Cómic Valencia</mj-title>
+</mj-head>
+  <mj-body>
+    <mj-section background-color="#213b20">
+      <mj-column>
+        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link href="/gettings-started-onboard" color="#ffffff">Invitados</mj-navbar-link>
+            <mj-navbar-link href="/try-it-live" color="#ffffff">Try it live</mj-navbar-link>
+            <mj-navbar-link href="/templates" color="#ffffff">Templates</mj-navbar-link>
+            <mj-navbar-link href="/components" color="#ffffff">Components</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+
+        <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
+
+        <mj-text font-family="helvetica">
+        <h1 align="center">TODO LO QUE DEBES SABER</h1>
+          <p>Otro año consecutivo más de diversión y mucho juego. <a href="" style="color: blue;">Salón Cómic Valencia</a> vuelve del 28 de febrero al 2 de marzo de 2025 a Feria Valencia y te contamos todas las novedades y noticias de este año 💬</p>
+        </mj-text>
+        <mj-text font-family="helvetica">
+        <b>🛡️ Zona Joc&Rol: </b>Este año, la zona Joc&Rol del Salón del Cómic de Valencia continuará su itinerancia por la Comunitat Valenciana y regresará a la Comar Con de Torrevieja, el mayor evento de la región. <br></br>
+          
+          <b>🎉 Eventos y exposiciones: </b>El Salón del Cómic de Valencia se espera que incluya diversas exposiciones y actividades, así como la presencia de autores y editores de cómics.<br></br>
+          
+          <b>👘 Cosplay: </b>El Salón del Cómic de Valencia también suele contar con una pasarela de cosplay y una competición de Cosmasters, donde los participantes muestran sus trajes y habilidades. <br></br>
+          
+          <b>🏅 Premios: </b>El Salón del Cómic de Valencia suele incluir la entrega de premios a los mejores cómics, autores y cosplayers. <br></br>
+
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column>
+
+        <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
+        </mj-column>
+      </mj-section>
+    
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-image width="137px" height="185px" padding="0"    src="https://mjml.io/assets/img/easy-and-quick.png" />
+          <mj-text align="center">
+            <h2>Easy and quick</h2>
+            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="166px" height="185px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+          <mj-text align="center">
+            <h2>Responsive</h2>
+            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-image width="137px" height="185px" padding="0"    src="https://mjml.io/assets/img/easy-and-quick.png" />
+          <mj-text align="center">
+            <h2>Easy and quick</h2>
+            <p>Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="166px" height="185px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+          <mj-text align="center">
+            <h2>Responsive</h2>
+            <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>
