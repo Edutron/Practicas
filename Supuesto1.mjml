@@ -6,19 +6,25 @@
   <mj-body>
     <mj-section background-color="#213b20" padding="0px">
       <mj-column>
-      <mj-image padding="0px" src="SalonDelComicValencia2025.png" />
+      <mj-image padding="0px" src="SalonDelComicValencia2025.png" href="https://www.saloncomicvalencia.com/" />
         <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
-            <mj-navbar-link href="/gettings-started-onboard" color="#ffffff">Invitados</mj-navbar-link>
-            <mj-navbar-link href="/try-it-live" color="#ffffff">Try it live</mj-navbar-link>
-            <mj-navbar-link href="/templates" color="#ffffff">Templates</mj-navbar-link>
-            <mj-navbar-link href="/components" color="#ffffff">Components</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/invitados-2025/" color="#ffffff">INVITADOS</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/avance-programacion-2025/" color="#ffffff">CONTENIDOS</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/patrocinios-salon-del-comic-de-valencia-2025/" color="#ffffff">Patrocinar</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/contactar/" color="#ffffff">CONTACTOS</mj-navbar-link>
         </mj-navbar>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
+      <mj-divider border-color="#213b20" width="600px" border-width="1px" padding="0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-group>
+      <mj-column>
 
-        <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
+  
 
         <mj-text font-family="helvetica">
         <h1 align="center">TODO LO QUE DEBES SABER</h1>
@@ -36,6 +42,7 @@
         </mj-text>
 
       </mj-column>
+      </mj-group>
     </mj-section>
     
     <mj-section>
@@ -101,6 +108,7 @@
       </mj-group>
     </mj-section>
     <mj-section>
+      <mj-group>
     <mj-column>
       <mj-text font-family="helvetica">
       El <b>26 de Febrero</b> se abrirán la venta para las entradas generales del Salón del Cómic de Valencia.
@@ -112,50 +120,58 @@
           <li><b>Packs Familiares: </b>Disponibles para viernes, sábado y domingo, con descuentos en entradas para adultos y niños entre 4 y 13 años. </li>
         </ul>
       </mj-text>
-      <mj-button font-family="Helvetica" background-color="#213b20" color="white" border-radius="40px" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista" width="600px" height="60px" padding="0">
+      <mj-button font-family="Helvetica" background-color="#213b20" color="white" border-radius="40px" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista" height="70px" padding="0">
           <h2>¡CONSIGUE TU ENTRADA PARA EL EVENTO AQUI!</h2>
-         </mj-button>
+       </mj-button>
      </mj-column>
+      </mj-group>
     </mj-section>
     <mj-section>
+      <mj-column>
+       <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-group>
     <mj-column>
-     <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
      <mj-text font-family="Helvetica">
         <b>¿Quieres enterarte de todas las novedades del evento?</b> Síguenos en nuestras redes para no perderte absolutamente nada.
       </mj-text>
       <mj-social font-size="25px" icon-size="40px" mode="horizontal">
-          <mj-social-element name="facebook" href="https://mjml.io/" background-color="black" border-radius="40px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES" background-color="black" border-radius="40px">
             
           </mj-social-element>
-          <mj-social-element name="instagram" href="https://mjml.io/" background-color="black" border-radius="40px">
+          <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia/?hl=es" background-color="black" border-radius="40px">
             
           </mj-social-element>
-          <mj-social-element name="twitter" href="https://mjml.io/" background-color="black" border-radius="40px">
+          <mj-social-element name="twitter" href="https://twitter.com/saloncomicvlc" background-color="black" border-radius="40px">
             
           </mj-social-element>
-          <mj-social-element name="youtube" href="https://mjml.io/" background-color="black" border-radius="40px">
-            
-          </mj-social-element>
-        <mj-social-element name="tiktok" href="https://mjml.io/" background-color="black" border-radius="40px">
+          <mj-social-element name="youtube" href="https://www.youtube.com/@saloncomicvalencia" background-color="black" border-radius="40px">
             
           </mj-social-element>
         </mj-social>
     </mj-column>
+     </mj-group>
     </mj-section>
     <mj-section>
+      <mj-group>
     <mj-column>
       <mj-text font-family="Helvetica" color="black" align="center">
-      <h2>Organiza:</h2>
+      <h3>Organiza:</h3>
       </mj-text>
       </mj-column>
+        </mj-group>
     </mj-section>
     <mj-section>
+      <mj-group>
     <mj-column>
-      <mj-image width="200px" height="100px" padding="0" src="LOGO-1.jpg" />
+      <mj-image width="200px" height="100px" padding="0" src="LOGO-1.jpg" href="https://www.feriavalencia.com/">
       </mj-column>
       <mj-column>
-      <mj-image width="200px" height="100px" padding="0" src="LOGO-2.jpg" />
+      <mj-image width="200px" height="100px" padding="0" src="LOGO-2.jpg" href="https://www.saloncomicvalencia.com/">
     </mj-column>
+    </mj-group>
     </mj-section>
   </mj-body>
 </mjml>
