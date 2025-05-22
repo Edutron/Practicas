@@ -6,7 +6,7 @@
   <mj-body>
     <mj-section background-color="#213b20" padding="0px">
       <mj-column>
-      <mj-image padding="0px" src="SalonDelComicValencia2025.png" href="https://www.saloncomicvalencia.com/" />
+      <mj-image padding="0px" src="https://nuevonueve.com/wp-content/uploads/2025/02/portada-salon-valencia25-1080x675.jpg" href="https://www.saloncomicvalencia.com/" />
         <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
             <mj-navbar-link href="https://www.saloncomicvalencia.com/invitados-2025/" color="#ffffff">INVITADOS</mj-navbar-link>
             <mj-navbar-link href="https://www.saloncomicvalencia.com/avance-programacion-2025/" color="#ffffff">CONTENIDOS</mj-navbar-link>
@@ -55,7 +55,7 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="Noticia-1.jpg" />
+          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/67bc307ed638d.png" />
           <mj-text align="center">
             <h2>Miles de jóvenes disfrutan del Salón del Cómic de València</h2>
             <p>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única 
@@ -67,7 +67,7 @@
          </mj-button>
         </mj-column>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="Noticia-2.jpg" />
+          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/EMIL-FERRIS.jpg" />
           <mj-text align="center">
             <h2>Emil Ferris, un hito para el Salón del Cómic de València</h2>
             <p>Ante una sala repleta de seguidores, la autora ha cautivado al público 
@@ -84,7 +84,7 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="Noticia-3.jpg" />
+          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/SALON-DEL-COMIC-DE-VALENCIA-2025-3.jpg" />
           <mj-text align="center">
             <h2>Todo preparado para el gran festival de la cultura POP en el Salón del Cómic de Valéncia </h2>
             <p>La norteamericana Emil Ferris encabeza el listado de autores internacionales de esta edición. 
@@ -95,7 +95,7 @@
          </mj-button>
         </mj-column>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="Noticia-4.jpg" />
+          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/05/KUJALICE_cwm2025.jpg" />
           <mj-text align="center">
             <h2>El ganador del Cosmasters 2025 del Salón del Cómic de València competirá en la final</h2>
             <p>El talento del cosplay Kujalice ganador del concurso Cosmasters 2025, 
@@ -166,10 +166,10 @@
     <mj-section>
       <mj-group>
     <mj-column>
-      <mj-image width="200px" height="100px" padding="0" src="LOGO-1.jpg" href="https://www.feriavalencia.com/">
+      <mj-image width="200px" height="100px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2022/12/LOGO-CENTENARIO_01-01.jpg" href="https://www.feriavalencia.com/">
       </mj-column>
       <mj-column>
-      <mj-image width="200px" height="100px" padding="0" src="LOGO-2.jpg" href="https://www.saloncomicvalencia.com/">
+      <mj-image width="200px" height="100px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/09/cropped-Logosin-2048x844.jpg" href="https://www.saloncomicvalencia.com/">
     </mj-column>
     </mj-group>
     </mj-section>
