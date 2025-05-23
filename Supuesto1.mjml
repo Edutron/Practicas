@@ -1,9 +1,10 @@
 <mjml>
 <mj-head>
-    <mj-preview>Vuelve el Salón del Cómic Valencia </mj-preview>
-    <mj-title>Informacion Salón del Cómic Valencia</mj-title>
-    <mj-style>
- a {
+  <mj-preview>Vuelve el Salón del Cómic Valencia </mj-preview>
+  <mj-title>Informacion Salón del Cómic Valencia</mj-title>
+  <!--Estilos para el CSS-->
+  <mj-style>
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -106,37 +107,36 @@
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
-    </mj-style>
+      
+.codeimg {
+  clip-path: inset(0% 10% 0% 10% round 5%);
+}
+
+</mj-style>
 </mj-head>
   <mj-body>
-    <mj-section background-color="#213b20" padding="0px">
+    <!--Imagen del Salon del Comic Valencia -->
+    <mj-section padding="0px">
       <mj-column>
-      <mj-image padding="0px" src="https://nuevonueve.com/wp-content/uploads/2025/02/portada-salon-valencia25-1080x675.jpg" href="https://www.saloncomicvalencia.com/" />
-        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
-            <mj-navbar-link href="https://www.saloncomicvalencia.com/invitados-2025/" color="#ffffff">INVITADOS</mj-navbar-link>
-            <mj-navbar-link href="https://www.saloncomicvalencia.com/avance-programacion-2025/" color="#ffffff">CONTENIDOS</mj-navbar-link>
-            <mj-navbar-link href="https://www.saloncomicvalencia.com/patrocinios-salon-del-comic-de-valencia-2025/" color="#ffffff">Patrocinar</mj-navbar-link>
-            <mj-navbar-link href="https://www.saloncomicvalencia.com/contactar/" color="#ffffff">CONTACTOS</mj-navbar-link>
-        </mj-navbar>
+      <mj-image border-radius="20px" padding="0px" src="https://nuevonueve.com/wp-content/uploads/2025/02/portada-salon-valencia25-1080x675.jpg" href="https://www.saloncomicvalencia.com/" />
       </mj-column>
     </mj-section>
+    <!--Barra divisora-->
     <mj-section>
       <mj-column>
-      <mj-divider border-color="#213b20" width="600px" border-width="1px" padding="0"></mj-divider>
+      <mj-divider border-color="#029900" width="600px" border-width="1px" padding="0"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <!--Introduccio de informacion-->
+    <mj-section padding="0" background-color="#eeeeee" border-radius="5%">
       <mj-group>
       <mj-column>
-
-  
-
         <mj-text font-family="helvetica">
-        <h1 align="center">TODO LO QUE DEBES SABER</h1>
-          <p>Otro año consecutivo más de diversión y mucho juego. <a href="" style="color: blue;">Salón Cómic Valencia</a> vuelve del 28 de febrero al 2 de marzo de 2025 a Feria Valencia y te contamos todas las novedades y noticias de este año 💬</p>
+          <h1 align="center">TODO LO QUE DEBES SABER</h1>
+          <p>Otro año consecutivo más de diversión y mucho juego. <a href="https://www.saloncomicvalencia.com/" style="color: blue;">Salón del Cómic Valencia</a> vuelve del <b>28 de febrero al 2 de marzo</b> de 2025 a Feria Valencia y te contamos todas las <b>novedades</b> y <b>noticias</b> de este año 💬</p>
         </mj-text>
         <mj-text font-family="helvetica">
-        <b>🛡️ Zona Joc&Rol: </b>Este año, la zona Joc&Rol del Salón del Cómic de Valencia continuará su itinerancia por la Comunitat Valenciana y regresará a la Comar Con de Torrevieja, el mayor evento de la región. <br></br>
+          <b>🛡️ Zona Joc&Rol: </b>Este año, la zona Joc&Rol del Salón del Cómic de Valencia continuará su itinerancia por la Comunitat Valenciana y regresará a la Comar Con de Torrevieja, el mayor evento de la región. <br></br>
           
           <b>🎉 Eventos y exposiciones: </b>El Salón del Cómic de Valencia se espera que incluya diversas exposiciones y actividades, así como la presencia de autores y editores de cómics.<br></br>
           
@@ -145,22 +145,20 @@
           <b>🏅 Premios: </b>El Salón del Cómic de Valencia suele incluir la entrega de premios a los mejores cómics, autores y cosplayers. <br></br>
 
         </mj-text>
-
       </mj-column>
       </mj-group>
     </mj-section>
-    
+    <!--Barra divisora-->
     <mj-section>
       <mj-column>
-
-        <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
-        </mj-column>
-      </mj-section>
-    
-    <mj-section>
+        <mj-divider border-color="#029900" width="600px" padding="0" border-width="1px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!--Noticias 1-->
+    <mj-section background-color="#eeeeee" border-radius="5% 5% 0% 0% ">
       <mj-group>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/67bc307ed638d.png" />
+          <mj-image css-class="codeimg" width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/67bc307ed638d.png" />
           <mj-text align="center">
             <h2>Miles de jóvenes disfrutan del Salón del Cómic de València</h2>
             <p>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única 
@@ -176,7 +174,7 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/EMIL-FERRIS.jpg" />
+          <mj-image css-class="codeimg" width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/EMIL-FERRIS.jpg" />
           <mj-text align="center">
             <h2>Emil Ferris, un hito para el Salón del Cómic de València</h2>
             <p>Ante una sala repleta de seguidores, la autora ha cautivado al público 
@@ -193,11 +191,11 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    
-    <mj-section>
+    <!--Noticias 2-->
+    <mj-section background-color="#eeeeee">
       <mj-group>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/SALON-DEL-COMIC-DE-VALENCIA-2025-3.jpg" />
+          <mj-image css-class="codeimg" width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/SALON-DEL-COMIC-DE-VALENCIA-2025-3.jpg" />
           <mj-text align="center">
             <h2>Todo preparado para el gran festival de la cultura POP en el Salón del Cómic de Valéncia </h2>
             <p>La norteamericana Emil Ferris encabeza el listado de autores internacionales de esta edición. 
@@ -212,12 +210,12 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/05/KUJALICE_cwm2025.jpg" />
+          <mj-image css-class="codeimg" width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/05/KUJALICE_cwm2025.jpg" />
           <mj-text align="center">
             <h2>El ganador del Cosmasters 2025 del Salón del Cómic de València competirá en la final</h2>
             <p>El talento del cosplay Kujalice ganador del concurso Cosmasters 2025, 
             celebrado en el Salón del Cómic València, representará a España en la final internacional del Cosplay World Master de Lisboa.</p><br><br>
-          <a href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/" class="cta">
+            <a href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/" class="cta">
             <span>Leer mas</span>
             <svg width="13px" height="10px" viewBox="0 0 13 10">
             <path d="M1,5 L11,5"></path>
@@ -228,69 +226,79 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section>
+    <!--Promociones-->
+    <mj-section background-color="#eeeeee" border-radius="0% 0% 5% 5%">
       <mj-group>
-    <mj-column>
-      <mj-text font-family="helvetica">
-      El <b>26 de Febrero</b> se abrirán la venta para las entradas generales del Salón del Cómic de Valencia.
-        <p>🎟️ No olvides que son <b>plazas limitadas</b> y que hay <b>promociones</b> para las entradas:</p>
-
-        <ul>
-          <li><b>Carnet Jove: </b> Descuento de 2 euros en la entrada general. </li><br></br>
-            <li><b>Domingo: </b>Descuento del 30% en la compra de entradas. </li><br></br>
-          <li><b>Packs Familiares: </b>Disponibles para viernes, sábado y domingo, con descuentos en entradas para adultos y niños entre 4 y 13 años. </li>
-        </ul><br>
-        <a href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista"><button class="btn">¡CONSIGUE TU ENTRADA PARA EL EVENTO AQUI!</button>
-      </mj-text>
-     </mj-column>
+        <mj-column>
+          <mj-text font-family="helvetica">
+            <p>El <b>26 de Febrero</b> se abrirán la venta para las entradas generales del <a href="https://www.saloncomicvalencia.com/" style="color: blue;">Salón del Cómic Valencia</a>
+            <p>🎟️ No olvides que son <b>plazas limitadas</b> y que hay <b>promociones</b> para las entradas:</p>
+            <ul>
+              <li><b>Carnet Jove: </b> Descuento de 2 euros en la entrada general. </li><br></br>
+              <li><b>Domingo: </b>Descuento del 30% en la compra de entradas. </li><br></br>
+              <li><b>Packs Familiares: </b>Disponibles para viernes, sábado y domingo, con descuentos en entradas para adultos y niños entre 4 y 13 años. </li>
+            </ul>
+            <br>
+          </mj-text>
+          <mj-text align="center">
+            <a href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista"><button class="btn">¡CONSIGUE TU ENTRADA PARA EL EVENTO AQUI!</button></a>
+          </mj-text>
+        </mj-column>
       </mj-group>
     </mj-section>
+    <!--Barra divisora-->
     <mj-section>
       <mj-column>
-       <mj-divider border-color="#213b20" width="600px" padding="0" border-width="1px"></mj-divider>
+       <mj-divider border-color="#029900" width="600px" padding="0" border-width="1px"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <!--Redes Sociales-->
+    <mj-section background-color="#eeeeee" border-radius="10%">
       <mj-group>
-    <mj-column>
-     <mj-text font-family="Helvetica">
-        <b>¿Quieres enterarte de todas las novedades del evento?</b> Síguenos en nuestras redes para no perderte absolutamente nada.
-      </mj-text>
-      <mj-social font-size="25px" icon-size="40px" mode="horizontal">
-          <mj-social-element name="facebook" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES" background-color="black" border-radius="40px">
-            
-          </mj-social-element>
-          <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia/?hl=es" background-color="black" border-radius="40px">
-            
-          </mj-social-element>
-          <mj-social-element name="twitter" href="https://twitter.com/saloncomicvlc" background-color="black" border-radius="40px">
-            
-          </mj-social-element>
-          <mj-social-element name="youtube" href="https://www.youtube.com/@saloncomicvalencia" background-color="black" border-radius="40px">
-            
-          </mj-social-element>
-        </mj-social>
-    </mj-column>
-     </mj-group>
+        <mj-column>
+          <mj-text font-family="Helvetica">
+            <b>¿Quieres enterarte de todas las novedades del evento?</b> Síguenos en nuestras redes para no perderte absolutamente nada.
+          </mj-text>
+          <mj-social font-size="25px" icon-size="40px" mode="horizontal">
+            <mj-social-element name="facebook" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES" background-color="black" border-radius="40px" padding="20px">
+              
+            </mj-social-element>
+            <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia/?hl=es" background-color="black" border-radius="40px" padding="20px">
+              
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://twitter.com/saloncomicvlc" background-color="black" border-radius="40px" padding="20px">
+              
+            </mj-social-element>
+            <mj-social-element name="youtube" href="https://www.youtube.com/@saloncomicvalencia" background-color="black" border-radius="40px" padding="20px">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-group>
     </mj-section>
+    <!--Barra divisora-->
     <mj-section>
-      <mj-group>
-    <mj-column>
-      <mj-text font-family="Helvetica" color="black" align="center">
-      <h3>Organiza:</h3>
-      </mj-text>
-      </mj-column>
-        </mj-group>
-    </mj-section>
-    <mj-section>
-      <mj-group>
-    <mj-column>
-      <mj-image width="200px" height="100px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2022/12/LOGO-CENTENARIO_01-01.jpg" href="https://www.feriavalencia.com/">
-      </mj-column>
       <mj-column>
-      <mj-image width="200px" height="100px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/09/cropped-Logosin-2048x844.jpg" href="https://www.saloncomicvalencia.com/">
-    </mj-column>
-    </mj-group>
+       <mj-divider border-color="#029900" width="600px" padding="0" border-width="1px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!--Final de la web-->
+    <mj-section background-color="#eeeeee" border-radius="10%">
+      <mj-group>
+        <mj-column>
+          <mj-text font-family="Helvetica" color="black" align="center">
+            <h2>Organiza:</h2>
+          </mj-text>
+          <mj-image width="200px" height="100px" padding="0" src="https://estaticos-cdn.prensaiberica.es/epi/public/file/2024/0411/10/fv-identidadpc.png" href="https://www.feriavalencia.com/"></mj-image>
+          <mj-image width="200px" height="150px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2023/11/LogoSCV-negro-300x274.png" href="https://www.saloncomicvalencia.com/"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Helvetica" color="black" align="center">
+            <h2>Patrocina:</h2>
+          </mj-text>
+          <mj-image width="200px" height="100px" padding="0" src="https://valenciaciutatamable.org/wp-content/uploads/2018/04/logo-generalitat-valenciana.png" href="https://www.gva.es/es/inicio/presentacion"></mj-image>
+          <mj-image width="200px" height="150px" padding="0" src="https://www.cinemajove.com/wp-content/uploads/2024/06/CARNET-JOVE-LOGO-TRANSPARENTE-2.png" href="https://ivaj.gva.es/es/"></mj-image>
+        </mj-column>
+      </mj-group>
     </mj-section>
   </mj-body>
 </mjml>
