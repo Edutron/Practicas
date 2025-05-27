@@ -56,7 +56,7 @@ a {
         <mj-column>
           <mj-image width="250px" height="200px"src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/67bc307ed638d.png" href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/" border-radius="20px"/>
           <mj-text align="center">
-            <a href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/">
+            <a href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/" style="color: black;">
             <div>
             <h2>Miles de jóvenes disfrutan del Salón del Cómic de València</h2>
             <p>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única 
@@ -72,7 +72,7 @@ a {
         <mj-column>
           <mj-image width="250px" height="200px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/EMIL-FERRIS.jpg" href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" border-radius="20px"/>
           <mj-text align="center">
-            <a href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/">
+            <a href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" style="color: black;">
             <div>
             <h2>Emil Ferris, un hito para el Salón del Cómic de València</h2>
             <p>Ante una sala repleta de seguidores, la autora ha cautivado al público 
@@ -93,7 +93,7 @@ a {
         <mj-column>
           <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/SALON-DEL-COMIC-DE-VALENCIA-2025-3.jpg" href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/" border-radius="20px"/>
           <mj-text align="center">
-            <a href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/">
+            <a href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/" style="color: black;">
               <div>
             <h2>Todo preparado para el gran festival de la cultura POP en el Salón del Cómic de Valéncia </h2>
             <p>La norteamericana Emil Ferris encabeza el listado de autores internacionales de esta edición. 
@@ -108,7 +108,7 @@ a {
         <mj-column>
           <mj-image width="250px" height="200px" padding="0" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/05/KUJALICE_cwm2025.jpg" href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/" border-radius="20px"/>
           <mj-text align="center">
-            <a href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/">
+            <a href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/" style="color: black;">
             <div>
             <h2>El ganador del Cosmasters 2025 del Salón del Cómic de València competirá en la final</h2>
             <p>El talento del cosplay Kujalice ganador del concurso Cosmasters 2025, 
@@ -135,9 +135,9 @@ a {
               <li><b>Packs Familiares: </b>Disponibles para viernes, sábado y domingo, con descuentos en entradas para adultos y niños entre 4 y 13 años. </li><br>
             </ul>
           </mj-text>
-          <mj-button background-color="#5CE65C" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista" border-radius="20px" width="450px" color="black" font-size="15px">
+           <mj-button background-color="#5CE65C" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista" border-radius="20px" width="450px" color="black" font-size="15px">
             ¡CONSIGUE TU ENTRADA PARA EL EVENTO AQUI! 
-          </mj-button>
+            </mj-button>
         </mj-column>
       </mj-group>
     </mj-section>
