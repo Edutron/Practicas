@@ -8,8 +8,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-    
-.tr:hover {background-color: #D6EEEE;}
 </mj-style>
 </mj-head>
   <mj-body>
@@ -26,21 +24,22 @@ a {
       </mj-column>
     </mj-section>
     <!--Introduccio de informacion-->
-    <mj-section padding="0" background-color="#eeeeee" border-radius="20px">
+    <mj-section padding="0" background-color="#eeeeee" border-radius="20px" background-url="https://github.com/Edutron/Practicas/blob/main/images.jpeg?raw=true">
       <mj-group>
       <mj-column>
         <mj-text>
+          <h1 align="center">Tenemos nuevas Noticias para ti {{nombre}}</h1><br></br>
           <h1 align="center" font-family="Comic Sans">TODO LO QUE DEBES SABER</h1>
-          <p>Otro año consecutivo más de diversión y mucho juego. <a href="https://www.saloncomicvalencia.com/" style="color: blue;">Salón del Cómic Valencia</a> vuelve del <b>28 de febrero al 2 de marzo</b> de 2025 a Feria Valencia y te contamos todas las <b>novedades</b> y <b>noticias</b> de este año 💬</p>
+          <p>Otro año más de diversión y mucho juego <a href="https://www.saloncomicvalencia.com/" style="color: blue;">Salón del Cómic Valencia</a> vuelve del <b>28 de febrero al 2 de marzo</b> de 2025 a Feria Valencia y te contamos todas las <b>novedades</b> y <b>noticias</b> de este año 💬</p>
         </mj-text>
         <mj-text>
-          <b>🛡️ Zona Joc&Rol: </b>Este año, la zona Joc&Rol del Salón del Cómic de Valencia continuará su itinerancia por la Comunitat Valenciana y regresará a la Comar Con de Torrevieja, el mayor evento de la región. <br></br>
+          <b>🛡️ Zona Joc&Rol: </b>Una experiencia mágica tanto para los más pequeños como para los adultos, solamente tienes que tener una gran imaginación y ganas de divertirte jugando a juegos de mesa y rol de todo tipo.<br></br>
           
-          <b>🎉 Eventos y exposiciones: </b>El Salón del Cómic de Valencia se espera que incluya diversas exposiciones y actividades, así como la presencia de autores y editores de cómics.<br></br>
+          <b>🎉 Eventos y exposiciones: </b>Nuevos concursos de dibujos y juegos sobre los  comics y el mundo de Marvel para los mas pequeños, y ademas podras conoces a tus autores favoritos de comics y ciencia aficcion. <br></br>
           
-          <b>👘 Cosplay: </b>El Salón del Cómic de Valencia también suele contar con una pasarela de cosplay y una competición de Cosmasters, donde los participantes muestran sus trajes y habilidades. <br></br>
+          <b>👘 Cosplay: </b>Participa y disfrazate de tu personaje favorito y enseñar en una pasarela donde los mas creativos y mejor actuados ganaran un premio increible Te lo vas a perder?<br></br>
           
-          <b>🏅 Premios: </b>El Salón del Cómic de Valencia suele incluir la entrega de premios a los mejores cómics, autores y cosplayers. <br></br>
+          <b>🏅 Premios: </b>Por supuesto para los mas creativos y con ganas de participar en los diferentes concursos se podran llevar premios como cómics firmados, trofeos, conocer a su autor favorito... ¡Tienes que participar!<br></br>
 
         </mj-text>
       </mj-column>
@@ -53,17 +52,14 @@ a {
       </mj-column>
     </mj-section>
     <!--Noticias 1-->
-    <mj-section background-color="#eeeeee" border-radius="20px 20px 0px 0px ">
+    <mj-section background-color="#eeeeee" border-radius="20px 20px 0px 0px " background-url="https://github.com/Edutron/Practicas/blob/main/images.jpeg?raw=true">
       <mj-group>
         <mj-column>
           <mj-image width="250px" height="200px"src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/67bc307ed638d.png" href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/" border-radius="20px"/>
-          <mj-text align="center">
+          <mj-text align="center" font-family="Comic Sancs">
             <a href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/" style="color: black;">
             <div>
             <h2>Miles de jóvenes disfrutan del Salón del Cómic de València</h2>
-            <p>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única 
-            en el Salón del Cómic de Valencia. Desde primera hora de la mañana de hoy viernes, han podido disfrutar 
-            de toda la oferta cultural que han organizado para ellos.</p>
             </div>
             </a>
           </mj-text>
@@ -72,49 +68,11 @@ a {
             </mj-button>
         </mj-column>
         <mj-column>
-          <mj-image width="250px" height="200px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/EMIL-FERRIS.jpg" href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" border-radius="20px"/>
-          <mj-text align="center">
-            <a href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" style="color: black;">
-            <div>
-            <h2>Emil Ferris, un hito para el Salón del Cómic de València</h2>
-            <p>Ante una sala repleta de seguidores, la autora ha cautivado al público 
-            con su relato sobre el proceso creativo de su obra super premiada ‘Lo que más me gustan son los monstruos’ 
-            y en la que ha compartido anécdotas, reflexiones y la influencia de su propia experiencia.</p>
-            </div>
-            </a>
-          </mj-text>
-          <mj-button background-color="#5CE65C" href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/" border-radius="20px" color="black" font-size="15px">
-            LEER MAS 
-            </mj-button>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!--Noticias 2-->
-    <mj-section background-color="#eeeeee">
-      <mj-group>
-        <mj-column>
-          <mj-image width="250px" height="200px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/SALON-DEL-COMIC-DE-VALENCIA-2025-3.jpg" href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/" border-radius="20px"/>
-          <mj-text align="center">
-            <a href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/" style="color: black;">
-              <div>
-            <h2>Todo preparado para el gran festival de la cultura POP en el Salón del Cómic de Valéncia </h2>
-            <p>La norteamericana Emil Ferris encabeza el listado de autores internacionales de esta edición. 
-            Exposiciones, firmas, charlas… todo desde mañana 28 de febrero al domingo 2 de marzo en Feria Valencia.</p>
-            </div>
-            </a>
-          </mj-text>
-          <mj-button background-color="#5CE65C" href="https://www.saloncomicvalencia.com/todo-preparado-para-el-gran-festival-de-la-cultura-pop-en-el-salon-del-comic-de-valencia/" border-radius="20px" color="black" font-size="15px">
-            LEER MAS 
-            </mj-button>
-        </mj-column>
-        <mj-column>
           <mj-image width="250px" height="200px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/05/KUJALICE_cwm2025.jpg" href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/" border-radius="20px"/>
-          <mj-text align="center">
+          <mj-text align="center" font-family="Comic Sancs">
             <a href="https://www.saloncomicvalencia.com/el-ganador-del-cosmasters-2025-del-salon-del-comic-de-valencia-kujalice-competira-en-la-final-internacional-del-cosplay-world-master-de-lisboa/" style="color: black;">
             <div>
-            <h2>El ganador del Cosmasters 2025 del Salón del Cómic de València competirá en la final</h2>
-            <p>El talento del cosplay Kujalice ganador del concurso Cosmasters 2025, 
-            celebrado en el Salón del Cómic València, representará a España en la final internacional del Cosplay World Master de Lisboa.</p>
+            <h2>El ganador del Cosmasters 2025 del Salón de Cómic València </h2>
             </div> 
             </a>  
           </mj-text>
@@ -124,8 +82,26 @@ a {
         </mj-column>
       </mj-group>
     </mj-section>
+    <!--Noticias 2-->
+    <mj-section background-color="#eeeeee" background-url="https://github.com/Edutron/Practicas/blob/main/images.jpeg?raw=true">
+      <mj-group>
+        <mj-column>
+          <mj-image width="400px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/EMIL-FERRIS.jpg" href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" border-radius="20px"/>
+          <mj-text align="center" font-family="Comic Sancs" padding-left="125px" padding-right="125px">
+            <a href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" style="color: black;">
+            <div>
+            <h2>Emil Ferris, un hito para el Salón del Cómic de València</h2>
+            </div>
+            </a>
+          </mj-text>
+          <mj-button background-color="#5CE65C" href="https://www.saloncomicvalencia.com/emil-ferris-un-hito-para-el-salon-del-comic-de-valencia/" border-radius="20px" color="black" font-size="15px">
+            LEER MAS 
+            </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
     <!--Promociones-->
-    <mj-section background-color="#eeeeee" border-radius="0px 0px 20px 20px">
+    <mj-section background-color="#eeeeee" border-radius="0px 0px 20px 20px" background-url="https://github.com/Edutron/Practicas/blob/main/images.jpeg?raw=true">
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica">
@@ -150,7 +126,7 @@ a {
       </mj-column>
     </mj-section>
     <!--Redes Sociales-->
-    <mj-section background-color="#eeeeee" border-radius="20px">
+    <mj-section background-color="#eeeeee" border-radius="20px" background-url="https://github.com/Edutron/Practicas/blob/main/images.jpeg?raw=true">
       <mj-group>
         <mj-column>
           <mj-text font-family="Helvetica">
@@ -179,7 +155,7 @@ a {
       </mj-column>
     </mj-section>
     <!--Final de la web-->
-    <mj-section background-color="#eeeeee" border-radius="20px">
+    <mj-section background-color="#eeeeee" border-radius="20px" background-url="https://github.com/Edutron/Practicas/blob/main/images.jpeg?raw=true">
       <mj-group>
         <mj-column>
           <mj-text font-family="Helvetica" color="black" align="center">
@@ -195,6 +171,18 @@ a {
           <mj-image width="200px" height="100px" src="https://valenciaciutatamable.org/wp-content/uploads/2018/04/logo-generalitat-valenciana.png" href="https://www.gva.es/es/inicio/presentacion"></mj-image>
           <mj-image width="200px" height="150px" src="https://www.cinemajove.com/wp-content/uploads/2024/06/CARNET-JOVE-LOGO-TRANSPARENTE-2.png" href="https://ivaj.gva.es/es/"></mj-image>
         </mj-column>
+      </mj-group>
+    </mj-section>
+            <!-- Contactos -->
+    <mj-section>
+    <mj-group>
+      <mj-column>
+      <mj-text align="center">
+          	<p>© Feria Valencia - Todos los derechos reservados.</p>
+          	<p>Contacto: feriavalencia@feriavalencia.com</p>
+        <a href="https://www.feriavalencia.com/contacto/"><u>Atencion al cliente</u></a>
+          </mj-text>
+      </mj-column>
       </mj-group>
     </mj-section>
   </mj-body>
